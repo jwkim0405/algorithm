@@ -1,0 +1,15 @@
+package algorithmJava;
+import java.util.Scanner;
+
+public class swea_1215 {
+	Scanner sc = new Scanner(System.in);
+	// 10번 test case 반복
+	for (int i = 0; i < 10; i++) {
+		// palindrome 길이 입력
+		int len = sc.nextInt();
+		String[][] data = new String[8][8];
+		for (int j = 0; j < 8; j++) {
+			data[i] = sc.next();
+		}
+	}
+}
